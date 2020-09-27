@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+/ .container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.bg-light {
+    /*
+    background-color: #f8f9fa !important;
+    background: linear-gradient(blue , green) !important;
+*/
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(40, 245, 98) 0%, rgb(0, 255, 252) 100%);
+}
+
+
+.navbar-nav {
+
+    margin: 0 auto;
+}
+
+
+@media (min-width:576px) {
+
+    /*
+ .container,
+ .container-sm {1020
+  max-width:540px
+    
+ }
+*/
+    .navbar-nav {
+
+        align-items: center;
+    }
+}
+
+
+
+.about {
+    text-align: center;
+    color: black;
+    margin-top: 100px;
+}
+
+.about h2 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(40, 245, 98) 0%, rgb(0, 255, 252) 100%);
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+
+.contact-us {}
+
+.contact {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(40, 245, 98) 0%, rgb(0, 255, 252) 100%);
+    margin: 50px 0;
+    padding: 50px 0;
+    border-radius: 85px;
+}
+
+.contact-us h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.carousel-item {
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.overlay p {
+    margin-bottom: 50px;
+
+}
+
+.btn-outline-primary {
+    color: #363232;
+    border-color: #363232;
+    border-radius: 27px;
+    background: #dbd6d6;
+    font-size: 22px;
+    transition: .4s;
+}
+
+.btn-outline-primary:hover {
+    color: #000;
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(40, 245, 98) 0%, rgb(0, 255, 252) 100%);
+    border: none !important;
+    
+}
+
+.footer {
+    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(40, 245, 98) 0%, rgb(0, 255, 252) 100%);
+    padding: 50px 0;
+}
+
+
+.social {
+
+    text-align: center;
+    color: #363232;
+    padding: 20px 0;
+
+}
+
+
+ .list-inline-item a {
+        color: #fff;
+    background: #1F2235;
+    border: 2px solid #ff4a57; 
+    display: inline-block;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    border-radius: 50%;
+    transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+}
+
+ .list-inline-item a:hover {
+    background: #ff4a57;
+}
+.name {
+
+    text-align: center;
+    color: #363232;
+    padding: 20px 0;
+
+}
+
+.gmail {
+
+    text-align: center;
+    color: #363232;
+    padding: 20px 0;
+}
